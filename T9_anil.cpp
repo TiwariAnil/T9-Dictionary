@@ -1,8 +1,6 @@
 /*
-
+T9-Dictionary Implementation
 Written by Anil Tiwari
-Date: 27-Jan-2016
-
 */
 #include<vector>
 #include<stack>
@@ -214,8 +212,6 @@ void print_main(string s, int n){
 
 
 int main(){
-
-
     trieNode.root = newNode();
     trieNode.count = 0;
 
@@ -231,7 +227,6 @@ int main(){
 	    //cout<<str<<endl;//str;
 		insert(&trieNode, str);
 	}
-
     input_file.close();
     string inp;
     cout<<"Enter the number(use only 2-9), I will read your mind! \n\n    : ";
@@ -239,7 +234,6 @@ int main(){
     //cin>>str;
 
     print_main(inp, inp.size());
-
     //search_nearbuy(&trieNode, str);
     //cin>>str;
 	// Search for different keys
